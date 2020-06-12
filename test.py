@@ -11,5 +11,5 @@ mergeSort(arr)
 assert arr == [1,2,3,4]
 
 arr = [1,3,4,2]
-timSort(arr)
+timSort(arr, len(arr))
 assert arr == [1,2,3,4]
